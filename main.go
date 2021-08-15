@@ -22,12 +22,15 @@ func main() {
 	data.FirstName = "Budi"
 	data.LastName = "Susanto"
 
-	// data.CetakTanpaOutput()
-	data.TanpaPointer()
-	log.Println(data.FirstName)
+	cetak := data.Cetak()
+	log.Print(cetak)
 
-	data.DenganPointer()
-	log.Println(data.FirstName)
+	// data.CetakTanpaOutput()
+	// data.TanpaPointer()
+	// log.Println(data.FirstName)
+
+	// data.DenganPointer()
+	// log.Println(data.FirstName)
 	// log.Println(data.GetFirstName())
 	// log.Println(data.Cetak())
 	// var pod []Animal
