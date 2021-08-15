@@ -1,6 +1,6 @@
 package main
 
 func Hello() (value string) {
-	value = "Hello World!o"
+	value = "Hello World!"
 	return
 }
